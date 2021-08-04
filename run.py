@@ -10,6 +10,7 @@ import PIL
 import PIL.Image
 import sys
 
+
 try:
 	from .correlation import correlation # the custom cost volume layer
 except:
@@ -276,7 +277,8 @@ class Network(torch.nn.Module):
 netNetwork = None
 
 ##########################################################
-
+import torch
+torch.cuda.current_device()
 def estimate(tenOne, tenTwo):
 	global netNetwork
 
