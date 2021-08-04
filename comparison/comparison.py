@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-#testste
 import math
 import moviepy
 import moviepy.editor
